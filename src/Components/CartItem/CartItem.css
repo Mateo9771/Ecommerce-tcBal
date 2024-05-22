@@ -1,0 +1,27 @@
+.CartItem{
+    display:flex;
+    justify-content:center;
+    flex-direction: row;
+    align-items: center;
+    height: 10rem;
+    gap: 5rem;
+    border-style:double;
+    border-radius: 10px;
+    .CartItem-img{
+        height: 5rem;
+        width: 5rem;
+    }
+    .CartItem-details{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 6rem;
+    }
+    .CartItem-remove{
+        width: 7rem;
+        height: 2rem;
+        border-radius: 10px;
+        background-color: #0655c6;
+        color: #fff;
+    }
+}

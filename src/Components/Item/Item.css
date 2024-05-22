@@ -1,0 +1,57 @@
+
+    .CardItem{
+    width: 17rem;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+    border: 0.4px;
+    border-style: groove;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.534);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .PictureItem{
+        display: flex;
+        justify-content: center;
+        height: 10rem;
+        img{
+            height: 10rem;
+        }
+         }
+    section{
+        .ItemTitle{
+            height: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family:'Courier New', Courier, monospace;
+        }
+        .Info{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        }
+    .ItemFooter{
+        display: flex;
+        justify-content: center;
+        height: 3rem;
+        align-items: center;
+       .Option{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 12rem;
+        height: 2rem;
+        border-radius: 20px;
+        text-decoration: none;
+        color:#fff;
+        background-image: linear-gradient(to left top, #003fb5, #0655c6, #1a6bd5, #3081e3, #4697f0);
+        }
+    }
+}
+
+.CardItem:hover{
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.192);
+    
+}

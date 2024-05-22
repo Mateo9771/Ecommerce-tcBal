@@ -1,0 +1,36 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to left top, #003fb5, #0655c6, #1a6bd5, #3081e3, #4697f0);
+    padding: 20px;
+    height: 10rem;
+    .nav-button{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        .Button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border-radius: 10px;
+            background-color: rgba(63, 82, 85, 0.349);
+            color: #fff;
+            width: 9rem;
+            height: 6rem;
+        }
+        .Button:hover{
+            cursor: pointer;
+            background-color: #0655c6;
+        }
+    }
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .logo{
+        width: 8rem;
+    }
+    
+}

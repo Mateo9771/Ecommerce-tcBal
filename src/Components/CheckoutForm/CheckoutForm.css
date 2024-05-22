@@ -1,0 +1,40 @@
+.ContainerForm{
+    display: flex;
+    justify-content: center;
+    .Form{
+    border-radius: 5px;
+    border-style: groove;
+    box-shadow: 0px 15px 20px rgb(0,0,0.120);
+        width: 40%;
+        background-color: aliceblue;
+        display: flex;
+        text-align: center;
+        padding: 2rem;
+        flex-direction: column;
+        gap: 2rem;
+        .Label{
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            justify-content: center;
+            align-items: center;
+            .ButtonForm{
+                width: 10rem;
+                height: 2rem;
+                border-radius: 10px;
+                background-color: grey;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                }
+        }
+        .Input{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 20rem;
+            height: 2rem;
+            border-radius: 5px;
+            border-style: groove;
+            box-shadow: 0px 15px 20px rgb(0,0,0.120);
+        }
+    }
+}

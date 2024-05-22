@@ -1,0 +1,27 @@
+.Counter{
+    .Controls{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 15px;
+        .Button{
+            border-radius: 5rem;
+            width: 5rem;
+            height: 2rem;
+            background-color: #333;
+            color: white;
+        }
+    }
+    .Add-Button{
+        display: flex;
+        justify-content: center;
+        .Button-Add{
+            border-radius: 5rem;
+            width: 10rem;
+            height: 2rem;
+            background-color: #333;
+            color: white;
+        }
+    }
+}

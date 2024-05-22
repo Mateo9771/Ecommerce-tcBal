@@ -1,0 +1,21 @@
+.Checkout{
+    
+    h1{
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    
+}
+.ResponseOrder{
+    margin-top: 10rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgba(27, 209, 139, 0.178);
+}
